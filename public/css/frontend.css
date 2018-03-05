@@ -1,0 +1,465 @@
+.user-login-modal {
+    max-width: 670px !important;
+}
+
+.nav-bar-headre {
+    background: #fff;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    top: 0;
+    /*box-shadow: 0 -5px 10px #000;*/
+    width: 100%;
+}
+
+.social-login, .social-login-email {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 255px;
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 1px solid #e5e5e5;
+    float: left
+}
+
+#searchbtn {
+    border: 0;
+    padding: 0px 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #888;
+    font-size: 27px;
+    font-weight: 500;
+    border: 3px solid #555;
+    border-left: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height: 60px;
+    height: auto;
+    border-radius: 0 50px 50px 0 !important;
+}
+
+.hotel-block {
+    border: 2px solid;
+    width: 270px;
+    height: 300px;
+    margin: 5px;
+}
+
+.fb-login-btn, .ig-login-btn, .email-login-btn {
+    text-align: center;
+    color: white;
+
+}
+
+.fb-login-btn:hover, .ig-login-btn:hover, .email-login-btn:hover {
+    color: white;
+}
+
+.fb-login-btn li {
+    margin: 5px;
+    list-style: none;
+    padding-top: 5px;
+    width: 160px;
+    height: 35px;
+    background: #3b5998;
+
+}
+
+.email-login-btn li {
+    margin: 5px;
+    list-style: none;
+    padding-top: 5px;
+    width: 160px;
+    height: 35px;
+    background: #005a45;
+
+}
+
+.email-login-btn i {
+    margin-right: 10px;
+    width: 20px;
+    color: white;
+}
+
+.fb-login-btn i {
+    margin-right: 10px;
+    width: 20px;
+    background: white;
+    color: #3b5998;
+}
+
+.ig-login-btn li {
+    padding-top: 5px;
+    width: 160px;
+    height: 35px;
+    margin: 5px;
+    color: white;
+    background: #007bf7;
+}
+
+.instagram {
+    margin-right: 10px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.login-form {
+    padding: 0px;
+}
+
+.front-header {
+    height: 500px;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-image: url("../images/homepage.png");
+}
+
+.logo {
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-image: url("../images/LOGO.png");
+}
+
+.search-pin {
+    margin-top: 156px;
+    text-align: center;
+}
+
+.category-item {
+    float: left;
+}
+
+.category-item div {
+    margin-left: 10px;
+}
+
+.category-item div p {
+    margin-bottom: 0px;
+}
+
+.category-description div {
+    width: 20%;
+    margin-left: 5px !important;
+}
+
+.category {
+    padding-top: 22px;
+    background-color: #f3eeee;
+}
+
+.shop, .gym, .trainers, .public,.event, .insurance, .medical, .beaty,
+.shop-h, .gym-h, .trainers-h, .public-h, .insurance-h, .medical-h, .beaty-h {
+    border-radius: 50px;
+    color: white;
+    width: 50px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-image: url("../images/deliver.png");
+}
+
+.category-head {
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+.shop-h, .gym-h, .trainers-h, .public-h, .insurance-h, .medical-h, .beaty-h {
+    margin-left: 20px;
+}
+
+.event {
+    border-radius: 50px;
+    color: white;
+    width: 50px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-image: url("../images/event.png");
+}
+
+.gym, .gym-h {
+
+    background-image: url("../images/gym.png");
+}
+
+.trainers, .trainers-h {
+    background-image: url("../images/trainers.png");
+}
+
+.beaty, .beaty-h {
+    background-image: url("../images/beauty.png");
+}
+
+.medical, .medical-h {
+    background-image: url("../images/medical.png");
+}
+
+.insurance, .insurance-h {
+    background-image: url("../images/insturance.png");
+}
+
+.public, .public-h {
+    background-image: url("../images/public.png");
+}
+
+.search, .book-now, .banner {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.banner {
+    border: 1px solid grey;
+}
+
+.refine-search {
+    width: 30%;
+}
+
+.map {
+    height: 250px;
+}
+
+.search-result {
+    /*text-align: center;*/
+    margin-top: 25px;
+}
+
+.refine-search-category {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pin-results {
+    width: 50%;
+    margin-right: 80px;
+}
+
+.search-pin {
+    margin-left: 0px;
+}
+
+.search-pin {
+    margin-left: 25%;
+}
+
+.email, .web-site {
+
+    font-size: 16px;
+    margin-left: 200px;
+}
+
+.telephone {
+
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.email a, .web-site a, .telephone a {
+    color: green;
+}
+
+.title-description {
+    font-weight: bold;
+}
+
+.pin-image {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.search-result-image {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+/*rating*/
+.star-cb-group {
+    /* remove inline-block whitespace */
+    font-size: 0;
+    /* flip the order so we can use the + and ~ combinators */
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    /* the hidden clearer */
+}
+
+.star-cb-group * {
+    font-size: 28px;
+}
+
+.star-cb-group > input {
+    display: none;
+}
+
+.star-cb-group > input + label {
+    /* only enough room for the star */
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 1em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.feedback-pin {
+    margin-left: 43px;
+    float: left;
+    margin-top: 16px;
+}
+
+.category-header {
+    z-index: -5;
+    position: relative;
+    top: -16px;
+}
+
+.category-header div {
+    width: 58px;
+}
+
+.star-cb-group > input + label:before {
+    display: inline-block;
+    text-indent: -9999px;
+    content: "⚪";
+    color: #888;
+}
+
+.star-cb-group > input + label:hover ~ label:before,
+.star-cb-group > input + label:hover:before,
+.star-cb-group > input:checked ~ label:before {
+    content: "⚫";
+    color: #2270ee;;
+    text-shadow: 0 0 1px #333;
+}
+
+#rating-v-5 {
+    content: "⚫";
+    color: #2270ee;;
+    text-shadow: 0 0 1px #333;
+}
+
+.star-cb-group > .star-cb-clear + label {
+    text-indent: -9999px;
+    width: 0.5em;
+    margin-left: -.5em;
+}
+
+.star-cb-group > .star-cb-clear + label:before {
+    width: 0.5em;
+}
+
+.star-cb-group:hover > input + label:before {
+    content: "⚪";
+    color: #888;
+    text-shadow: none;
+}
+
+.star-cb-group:hover > input + label:hover ~ label:before,
+.star-cb-group:hover > input + label:hover:before {
+    content: "⚫";
+    color: #2270ee;;
+    text-shadow: 0 0 1px #333;
+}
+
+#favorite-add-note .form-group-rating {
+    position: relative;
+}
+
+#favorite-add-note .form-group-rating fieldset {
+    display: inline-block;
+}
+
+#favorite-add-note .form-group-rating .selected-rating {
+    position: absolute;
+    top: -7px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/*end reti*/
+
+@media screen and (max-width: 501px) {
+    .search-pin {
+        margin-left: 0px;
+    }
+
+    .email, .web-site {
+        margin-left: 20px;
+    }
+
+    .telephone {
+        margin-left: 155px;
+    }
+
+    .category-head {
+        margin-left: 0px;
+    }
+
+    .shop-h, .gym-h, .trainers-h, .public-h, .insurance-h, .medical-h, .beaty-h {
+        margin-left: 0px;
+    }
+
+    .category-item div  {
+         margin-left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .search-pin {
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .category-block {
+        width: 34% !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .category-items{
+        display: none;
+    }
+    .category-item{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .shop, .gym, .trainers,  .public, .insurance, .medical, .beaty, .event
+    .shop-h, .gym-h, .trainers-h, .public-h, .event, .insurance-h, .medical-h, .beaty-h {
+        width: 98px;
+    }
+}

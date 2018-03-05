@@ -1,0 +1,379 @@
+
+.user-event li {
+    list-style: none;
+}
+
+.fb-invite li {
+    color: white;
+    margin: 3px;
+    list-style: none;
+    background: #3b5998;
+    width: 32%;
+    padding: 3px;
+}
+
+.google-invite li {
+    list-style: none;
+    color: #ff6200;
+    background-color: #f9efef;
+    width: 32%;
+    padding: 3px;
+    margin: 3px;
+}
+
+.email-invite li {
+    margin: 3px;
+    width: 32%;
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.user-name {
+    color: white;
+    margin-left: 41px;
+}
+
+.claim-activity {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.save-setting {
+    width: 39%;
+    border-radius: 0px;
+}
+
+.claim-activity div {
+    width: 84%;
+}
+
+.settings-form, .help-contact {
+    margin-left: 450px;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    /*background-color: rgba(214, 224, 226, 0.2);*/
+    /*border-top-width: 0;*/
+    /*border-bottom-width: 2px;*/
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+    /*border-radius: 3px;*/
+    /*-webkit-box-shadow: none;*/
+    /*-moz-box-shadow: none;*/
+    /*box-shadow: none;*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    /*background-color: #ffffff;*/
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    border: 0px;
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+
+}
+
+.card.hovercard .cardheader {
+    background: url("../images/test.jpg");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    float: left;
+    position: relative;
+    top: -80px;
+    margin-left: 37px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard .info {
+    margin-top: -30px;
+    margin-left: -5px;
+    float: left;
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    margin-left: 33px;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 18px;
+}
+
+.start-chat {
+    background-color: #077bff;
+    width: 30%;
+}
+
+.chat-form {
+    width: 496px;
+}
+
+.visited-pin {
+    margin: 5px;
+    background-color: whitesmoke;
+    border: 1px solid #00000014;
+}
+
+.visited-pin-image {
+    margin:2px;
+    width: 150px;
+    height: 150px;
+}
+label[for="logo-uploader"] i:hover {
+    opacity: 0.7;
+}
+label[for="logo-uploader"] i {
+    padding: 30px 43px;
+    border: 1px solid lightgrey;
+    font-size: 45px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 4px -1px black;
+}
+label[for="logo-uploader"] i {
+
+background-color: #aba9ad;
+}
+.edit-user-info{
+    margin-left: 90px;
+    background-color: #6565650d;
+    border: 1px solid #81818238;
+    height: 10%;
+}
+.edit-location,
+.edit-camera,
+.edit-point{
+    margin-left: 100px;
+}
+@media screen and (max-width: 500px) {
+    .settings-form, .help-contact {
+
+        margin-left: 35px !important;
+    }
+
+    .fb-invite li {
+        width: 55%;
+
+    }
+
+    .google-invite li {
+
+        width: 55%;
+
+    }
+
+    .email-invite li {
+        width: 55%;
+    }
+
+    .start-chat {
+        width: 80%;
+    }
+
+    #chatbox {
+        width: 80%;
+    }
+
+    .chat-form {
+        width: 298px;
+    }
+}
